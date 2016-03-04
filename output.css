@@ -24,6 +24,26 @@ header ul {
   border-radius: 50%;
   background: rgba(0, 0, 0, 0.2); }
 
+h3 {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  margin-top: 70px;
+  text-align: center;
+  color: white;
+  font-size: 40px; }
+
+h3:hover {
+  transform: scale(1.25, 1.33);
+  transition: all 2s; }
+
+.cook1:hover, .cook2:hover, .cook3:hover {
+  transform: skewX(12deg);
+  transition: all 3s; }
+
+.cook4:hover, .cook5:hover, .cook6:hover {
+  transform: skewX(-12deg);
+  transition: all 2s; }
+
 *,
 *::before,
 *::after {
@@ -35,17 +55,17 @@ body {
   margin: 0; }
 
 .container {
-  width: 100%; }
+  width: 100%;
+  height: auto;
+  background-color: black; }
 
-h3 {
-  font-family: sans-serif;
-  text-transform: uppercase;
-  margin-top: 70px;
-  border: 1px solid white;
-  text-align: center;
-  color: white; }
+@media (max-width: 800px) {
+  h3 {
+    display: flex;
+    flex-direction: column;
+    font-size: 24px; } }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   header ul {
     display: flex;
     flex-direction: column;
@@ -55,7 +75,7 @@ header ul a {
   color: white; }
 
 a:hover {
-  color: #FF00FF; }
+  color: black; }
 
 .cook img {
   max-width: 100%;
@@ -75,7 +95,7 @@ a:hover {
   transform: scale(1.5, 1.5);
   transition: all 1s; }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .photo-gallery {
     width: 100%;
     display: flex;

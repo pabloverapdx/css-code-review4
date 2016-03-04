@@ -1,0 +1,25 @@
+// Animations //
+
+// Animation to title //
+h3:hover {
+  transform: scale(1.25, 1.33);
+  transition: all 2s;
+}
+
+// Animation to photographs //
+.cook1:hover, .cook2:hover, .cook3:hover {
+  transform: skewX(12deg);
+  transition: all 3s;
+}
+
+.cook4:hover, .cook5:hover, .cook6:hover {
+  transform: skewX(-12deg);
+  transition: all 2s;
+}
+
+// Animation to links in the header //
+// li:hover {
+//   transform-origin: bottom left;
+//   transform: rotate(80deg);
+//   transition: all 3s;
+// }
