@@ -1,0 +1,77 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+@import "_extends.scss";
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+}
+
+header {
+  @extend %body;
+
+  ul {
+  @extend %ul;
+
+  a {
+    text-decoration: none;
+    color: white;
+    }
+  }
+}
+
+.cook img {
+  max-width: 100%;
+  margin-top: -6px;
+}
+
+.photo-gallery {
+  display: flex;
+}
+// Position relative to all photos in the gallery //
+.cook1, .cook2, .cook3, .cook4, .cook5, .cook6 {
+  position: relative;
+}
+
+//Positioning of icons //
+.raft img, .raft2 img {
+  @extend %icon-positioning;
+}
+
+// Animation when hovering icons for photo 1 and 2 //
+  .raft img {
+    &:hover {
+      transform: scale(1.50, 1.50);
+      transition: all 1s;
+    }
+}
+
+// Animation to third photo when hovering photo //
+.cook3 {
+  &:hover {
+    .raft2 img {
+      transform: scale(1.50, 1.50);
+      transition: all 1s;
+    }
+  }
+}
+
+//Media Queries//
+.photo-gallery {
+  @media (max-width: 900px) {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}

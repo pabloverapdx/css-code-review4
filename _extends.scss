@@ -1,0 +1,32 @@
+// Extends //
+
+//Body//
+%body {
+  background-image: url('img/artic-wild.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 60vh;
+  // margin-top: -20px;
+}
+
+%ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  padding: 0;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+%icon-positioning {
+  position: absolute;
+  left: 40%;
+  bottom: 15%;
+  width: 15%;
+  height: auto;
+  z-index: 1;
+  border-radius: 50%;
+  background: transparentize(black, 0.8);
+}
