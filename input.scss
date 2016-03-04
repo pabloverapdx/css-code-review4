@@ -18,17 +18,37 @@ body {
   width: 100%;
 }
 
+h3 {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  margin-top: 70px;
+  border: 1px solid white;
+  text-align: center;
+  color: white;
+}
+
 header {
   @extend %body;
 
   ul {
   @extend %ul;
 
+  @media (max-width: 700px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
   a {
     text-decoration: none;
     color: white;
     }
   }
+}
+
+a:hover {
+    color: #FF00FF;
 }
 
 .cook img {
@@ -69,7 +89,7 @@ header {
 
 //Media Queries//
 .photo-gallery {
-  @media (max-width: 900px) {
+  @media (max-width: 700px) {
     width: 100%;
     display: flex;
     flex-direction: column;

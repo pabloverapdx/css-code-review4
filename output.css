@@ -1,5 +1,5 @@
 header {
-  background-image: url("img/artic-wild.jpg");
+  background-image: url("img/photo6.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -37,9 +37,25 @@ body {
 .container {
   width: 100%; }
 
+h3 {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  margin-top: 70px;
+  border: 1px solid white;
+  text-align: center;
+  color: white; }
+
+@media (max-width: 700px) {
+  header ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
 header ul a {
   text-decoration: none;
   color: white; }
+
+a:hover {
+  color: #FF00FF; }
 
 .cook img {
   max-width: 100%;
@@ -59,7 +75,7 @@ header ul a {
   transform: scale(1.5, 1.5);
   transition: all 1s; }
 
-@media (max-width: 900px) {
+@media (max-width: 700px) {
   .photo-gallery {
     width: 100%;
     display: flex;
