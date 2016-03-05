@@ -90,17 +90,17 @@ hr {
 }
 
 // Animation when hovering icons for photo 1 and 2 //
-  .raft img {
-    &:hover {
-      transform: scale(1.50, 1.50);
-      transition: all 1s;
-    }
-}
+//   .raft img {
+//     &:hover {
+//       transform: scale(1.50, 1.50);
+//       transition: all 1s;
+//     }
+// }
 
 // Animation to third photo when hovering photo //
-.cook3 {
+.cook1, .cook2, .cook3, .cook4, .cook5, .cook6 {
   &:hover {
-    .raft2 img {
+    .raft img {
       transform: scale(1.50, 1.50);
       transition: all 1s;
     }

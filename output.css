@@ -95,11 +95,7 @@ hr {
   text-transform: uppercase;
   font-weight: 900; }
 
-.raft img:hover {
-  transform: scale(1.5, 1.5);
-  transition: all 1s; }
-
-.cook3:hover .raft2 img {
+.cook1:hover .raft img, .cook2:hover .raft img, .cook3:hover .raft img, .cook4:hover .raft img, .cook5:hover .raft img, .cook6:hover .raft img {
   transform: scale(1.5, 1.5);
   transition: all 1s; }
 
