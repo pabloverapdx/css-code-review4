@@ -16,9 +16,9 @@ header ul {
 
 .raft img, .raft2 img {
   position: absolute;
-  left: 40%;
-  bottom: 15%;
-  width: 15%;
+  left: 50%;
+  bottom: 100px;
+  width: 40px;
   height: auto;
   z-index: 1;
   border-radius: 50%;
@@ -95,8 +95,8 @@ hr {
   text-transform: uppercase;
   font-weight: 900; }
 
-.cook1:hover .raft img, .cook2:hover .raft img, .cook3:hover .raft img, .cook4:hover .raft img, .cook5:hover .raft img, .cook6:hover .raft img {
-  transform: scale(1.5, 1.5);
+.cook1:hover img, .cook2:hover img, .cook3:hover img, .cook4:hover img, .cook5:hover img, .cook6:hover img {
+  transform: scale(0.5, 0.5);
   transition: all 1s; }
 
 @media (max-width: 800px) {
