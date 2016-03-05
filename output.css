@@ -36,14 +36,6 @@ h3:hover {
   transform: scale(1.25, 1.33);
   transition: all 2s; }
 
-.cook1:hover, .cook2:hover, .cook3:hover {
-  transform: skewX(12deg);
-  transition: all 3s; }
-
-.cook4:hover, .cook5:hover, .cook6:hover {
-  transform: skewX(-12deg);
-  transition: all 2s; }
-
 *,
 *::before,
 *::after {
@@ -86,6 +78,22 @@ a:hover {
 
 .cook1, .cook2, .cook3, .cook4, .cook5, .cook6 {
   position: relative; }
+
+hr {
+  position: absolute;
+  width: 60px;
+  height: 8px;
+  background-color: orange;
+  bottom: 35px;
+  left: 73px; }
+
+.test {
+  position: absolute;
+  color: white;
+  bottom: 2px;
+  left: 70px;
+  text-transform: uppercase;
+  font-weight: 900; }
 
 .raft img:hover {
   transform: scale(1.5, 1.5);

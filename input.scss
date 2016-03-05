@@ -69,6 +69,21 @@ a:hover {
   position: relative;
 }
 
+hr {
+  position: absolute;
+  width: 60px;
+  height: 8px;
+  background-color: orange;
+  bottom: 35px; left: 73px;
+}
+.test {
+  position: absolute;
+  color: white;
+  bottom: 2px; left: 70px;
+  text-transform: uppercase;
+  font-weight:900;
+}
+
 //Positioning of icons //
 .raft img, .raft2 img {
   @extend %icon-positioning;
