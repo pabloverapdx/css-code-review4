@@ -56,6 +56,27 @@ a:hover {
     color: black;
 }
 
+.second-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;;
+  height: 40px;
+  @media (max-width: 800px) {
+    display: none;
+  }
+}
+
+.second-links {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-right: 70px;
+  @media (max-width: 800px) {
+    display: none;
+  }
+}
+
 .cook img {
   max-width: 100%;
   margin-top: -6px;
